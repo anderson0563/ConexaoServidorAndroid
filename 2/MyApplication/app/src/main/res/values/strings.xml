@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SocketAndroid</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btn_send">Enviar Dados</string>
+    <string name="host_port_hint">192.168.0.100:8090</string>
+    <string name="host_port_label">Host:Porta</string>
+</resources>

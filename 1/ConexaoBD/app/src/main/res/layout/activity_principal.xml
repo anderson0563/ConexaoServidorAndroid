@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.edu.unicarioca.informatica.anderson.conexaobd.Principal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/conexao" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conexão"
+        android:id="@+id/b1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:onClick="Conexao"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserir"
+        android:id="@+id/b2"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentStart="true"
+        android:onClick="Inserir"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remover"
+        android:id="@+id/b3"
+        android:layout_below="@+id/b2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp"
+        android:onClick="Remover"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atualizar"
+        android:id="@+id/b4"
+        android:layout_below="@+id/b3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp"
+        android:onClick="Atualizar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar"
+        android:id="@+id/b5"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/b4"
+        android:layout_alignParentStart="true"
+        android:onClick="Listar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta"
+        android:id="@+id/inserir"
+        android:layout_above="@+id/b3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta"
+        android:id="@+id/remover"
+        android:layout_above="@+id/b4"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta"
+        android:id="@+id/atualizar"
+        android:layout_above="@+id/b5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta"
+        android:id="@+id/listar"
+        android:layout_alignBottom="@+id/b5"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
